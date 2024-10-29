@@ -152,13 +152,12 @@ ul {
 }
 
 .part3-2 p {
-    text-align: center;
-    font-size: x-large;
-
+  text-align: center;
+  font-size: x-large;
 }
 
 .part3-2 button {
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 .box1 {
@@ -200,7 +199,7 @@ ul {
   background-color: white;
   width: 80%;
   margin-left: 60px;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .part4-1 h4 {
@@ -223,7 +222,7 @@ ul {
 .handy img {
   height: 120px;
   margin-bottom: 10px;
-  margin-left: 60px; 
+  margin-left: 60px;
 }
 
 .handy h5 {
@@ -245,16 +244,16 @@ ul {
 .alida img {
   height: 120px;
   margin-bottom: 10px;
-  margin-left: 60px; 
+  margin-left: 60px;
 }
-  
+
 .alida h5 {
-   font-size: large;
-   margin-bottom: -10px;
-   color: green;
-   text-align: center;
+  font-size: large;
+  margin-bottom: -10px;
+  color: green;
+  text-align: center;
 }
-  
+
 .alida p {
   text-align: center;
   font-size: large;
@@ -267,9 +266,9 @@ ul {
 .rob img {
   height: 120px;
   margin-bottom: 10px;
-  margin-left: 60px; 
+  margin-left: 60px;
 }
-  
+
 .rob h5 {
   font-size: large;
   margin-bottom: -10px;
