@@ -138,11 +138,11 @@ ul {
 }
 
 .part3-2 img {
- height: 60px;
- background-color: blue;
- margin-left: 170px;
- margin-bottom: -30px;
- margin-top: 20px;
+  height: 60px;
+  background-color: blue;
+  margin-left: 170px;
+  margin-bottom: -30px;
+  margin-top: 20px;
 }
 
 .part3-2 h4 {
@@ -233,7 +233,7 @@ ul {
   text-align: center;
 }
 
-.handy p{
+.handy p {
   text-align: center;
   font-size: large;
 }
@@ -243,48 +243,48 @@ ul {
 }
 
 .alida img {
-    height: 120px;
-    margin-bottom: 10px;
-    margin-left: 60px; 
+  height: 120px;
+  margin-bottom: 10px;
+  margin-left: 60px; 
 }
   
 .alida h5 {
-    font-size: large;
-    margin-bottom: -10px;
-    color: green;
-    text-align: center;
+   font-size: large;
+   margin-bottom: -10px;
+   color: green;
+   text-align: center;
 }
   
-.alida p{
-    text-align: center;
-    font-size: large;
+.alida p {
+  text-align: center;
+  font-size: large;
 }
 
 .rob {
-    display: flex;
+  display: flex;
 }
 
 .rob img {
-    height: 120px;
-    margin-bottom: 10px;
-    margin-left: 60px; 
+  height: 120px;
+  margin-bottom: 10px;
+  margin-left: 60px; 
 }
   
 .rob h5 {
-    font-size: large;
-    margin-bottom: -10px;
-    color: green;
-    text-align: center;
+  font-size: large;
+  margin-bottom: -10px;
+  color: green;
+  text-align: center;
 }
-  
-.rob p{
-    text-align: center;
-    font-size: large;
+
+.rob p {
+  text-align: center;
+  font-size: large;
 }
 
 .hope img {
   height: 300px;
-margin-left: 10px;
+  margin-left: 10px;
 }
 
 .part5 {
@@ -298,9 +298,9 @@ margin-left: 10px;
 }
 
 .part5-1 h4 {
- text-align: center;
- font-size: x-large;
- color: green;
+  text-align: center;
+  font-size: x-large;
+  color: green;
 }
 
 .part5 h5 {
@@ -310,38 +310,38 @@ margin-left: 10px;
 }
 
 .boxa {
-    background-color: white;
-    width: 80%;
-    margin-left: 60px;
-    margin-top: 20px;
+  background-color: white;
+  width: 80%;
+  margin-left: 60px;
+  margin-top: 20px;
 }
 
 .boxb {
-    background-color: white;
-    width: 80%;
-    margin-left: 60px;
-    margin-top: 20px;
+  background-color: white;
+  width: 80%;
+  margin-left: 60px;
+  margin-top: 20px;
 }
 
 .boxc {
-    background-color: white;
-    width: 80%;
-    margin-left: 60px;
-    margin-top: 20px;
+  background-color: white;
+  width: 80%;
+  margin-left: 60px;
+  margin-top: 20px;
 }
 
 .boxd {
-    background-color: white;
-    width: 80%;
-    margin-left: 60px;
-    margin-top: 20px;
+  background-color: white;
+  width: 80%;
+  margin-left: 60px;
+  margin-top: 20px;
 }
 
 .part5 p {
-    text-align: center;
-    font-size: x-large;
+  text-align: center;
+  font-size: x-large;
 }
 
 .part5 button {
-    margin-left: 150px;
+  margin-left: 150px;
 }
