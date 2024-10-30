@@ -29,17 +29,22 @@ header h1 {
   color: white;
   font-size: 15px;
   padding-top: 13px;
+  text-align: center;
+  font-size: larger;
 }
 
 header p {
   color: white;
   font-size: 10px;
   padding-top: 3px;
+  text-align: center;
+  font-size: larger;
 }
 
 header button {
   padding-top: 3px;
   margin-bottom: 6px;
+  margin-left: 250px;
 }
 
 nav {
@@ -447,20 +452,26 @@ footer {
   text-align: center;
 }
 
-.more h4 {
+.side h1 {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}
+
+.side h4 {
   color: green;
   font-size: x-large;
   text-align: left;
 }
 
-.more p {
+.side p {
   color: white;
   font-size: x-large;
   text-align: center;
 }
 
 .more button {
-  margin-left: 150px;
+  margin-left: 250px;
 }
 
 .socials img {
