@@ -47,7 +47,7 @@ nav {
   justify-content: space-between;
 }
 
-ul {
+ nav ul {
   display: none;
 }
 
@@ -343,4 +343,142 @@ ul {
 
 .part5 button {
   margin-left: 150px;
+}
+
+.part6-1 {
+  background-image: linear-gradient(rgba(67,89,89,80%),rgba(67,89,89,80)), url("../images/pic5.jpeg");
+}
+
+.part6-1 h1 {
+  color: white;
+  font-size: larger;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.part6-1 p {
+  color: white;
+  text-align: center;
+  font-size: large;
+}
+
+.part6-1 button {
+  margin-left: 150px;
+}
+
+.boxaa {
+  background-color: white;
+  width: 80%;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.boxab {
+  background-color: white;
+  width: 80%;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.boxac {
+  background-color: white;
+  width: 80%;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.part6 {
+  background-color: lightgrey;
+  margin-bottom: 25px;
+}
+
+.part6 img {
+  height: 120px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  padding-top: 20px;
+}
+
+.part6 h5 {
+  font-size: xx-large;
+  margin-bottom: -10px;
+  color: green;
+  text-align: center;
+}
+
+.part6 p {
+  text-align: center;
+  font-size: large;
+}
+
+.part6 button {
+  margin-left: 150px;
+}
+
+.part7 img {
+  margin-left: 20px;
+  width: 90%;
+}
+
+.part7-1 h5 {
+  color: green;
+  text-align: center;
+  font-size: x-large;
+}
+
+.part7-1 h1 {
+  text-align: center;
+  font-size: larger;
+}
+
+.part7-2 img {
+  width: 7%;
+  height: 40px;
+}
+
+footer {
+  background-color: #151111f5;
+  width: 100%;
+}
+
+footer h1 {
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}
+
+footer h4 {
+  color: green;
+  font-size: x-large;
+  text-align: left;
+}
+
+footer p {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+footer button {
+  margin-left: 250px;
+}
+
+.socials img {
+  height: 50px;
+}
+
+.corner {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+footer ul {
+  list-style-type: none;
+  font-size: x-large;
+  color: white;
+}
+
+.corner h3 {
+  color: white;
 }
