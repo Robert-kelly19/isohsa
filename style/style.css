@@ -470,7 +470,6 @@ footer button {
 .corner {
   display: flex;
   justify-content: space-between;
-  margin: auto;
 }
 
 footer ul {
