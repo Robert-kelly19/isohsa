@@ -470,12 +470,13 @@ footer button {
 .corner {
   display: flex;
   justify-content: space-between;
+
 }
 
 footer ul {
   list-style-type: none;
   font-size: x-large;
-  color: white;
+  color: green;
 }
 
 .corner h3 {
