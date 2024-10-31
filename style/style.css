@@ -249,7 +249,7 @@ nav ul {
 }
 
 .handy img {
-  height: 120px;
+  height: 85px;
   margin-left: 60px;
 }
 
@@ -270,7 +270,7 @@ nav ul {
 }
 
 .alida img {
-  height: 120px;
+  height: 85px;
   margin-left: 60px;
 }
 
@@ -291,7 +291,7 @@ nav ul {
 }
 
 .rob img {
-  height: 120px;
+  height: 85px;
   margin-left: 60px;
 }
 
@@ -523,7 +523,7 @@ footer {
 }
 
 .socials img {
-  height: 50px;
+  height: 40px;
 }
 
 .corner {
@@ -540,4 +540,8 @@ footer ul {
 .corner h3 {
   color: #0d8309;
   text-align: center;
+}
+
+@media(min-width: 768px)  {
+
 }
