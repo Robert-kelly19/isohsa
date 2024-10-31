@@ -1,9 +1,10 @@
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-image: linear-gradient(#2b342b96, #17864259), url("../images/bg.jpeg");
+  background-image: linear-gradient(#5cc4949b, #59d5899b), url("../images/bg.jpeg");
   display: flex;
   flex-direction: column;
 }
@@ -39,8 +40,7 @@ header p {
 header button {
   padding-top: 3px;
   margin-bottom: 6px;
-  width: fit-content;
-  margin-left: 40%;
+  margin-left: 250px;
 }
 
 nav {
@@ -53,73 +53,54 @@ nav ul {
 }
 
 .contain1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 5%;
+  display: block;
+  padding-top: 25px;
 }
 
 .contain1 img {
-  width: 100%;
-  padding-top: 4%;
-  margin-left: 2.5%;
+  height: 250px;
+  width: 50%;
+  padding-top: 20px;
 }
 
 .contain1 h5 {
   color: green;
-  font-size: large;
-  margin: auto;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contain1 h1 {
   font-size: medium;
-  text-align: center;
-  margin: 1%;
-  font-family: initial;
 }
 
 .contain1 p {
   font-size: smaller;
-  text-align: center;
-  margin-top: 4%;
-}
-
-.contain1 button {
-  margin-left: 27%;
-}
-
-.sponsor {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .sponsor img {
-  width: 17%;
-  margin: 4% 0 0 4%;
+  height: 60px;
+  margin-left: 17px;
+  margin-top: 35px;
 }
 
 .part2 {
-  background-image: linear-gradient(#6390649c, #1c241db0), url("../images/pic1.jpeg");
+  background-image: linear-gradient(#01070ead, #010a139a), url("../images/pic1.jpeg");
 }
 
 .part2 h1 {
-  text-align: left;
+  text-align: center;
   color: white;
   font-weight: bold;
-  font-size: large;
-  padding-top: 5%;
+  font-size: x-large;
+  padding-top: 40px;
 }
 
 .part2 p {
   font-size: medium;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 .part2 button {
-  margin-left: 28%;
+  margin-left: 150px;
 }
 
 .part2-1 {
@@ -145,19 +126,16 @@ nav ul {
 .part3-1 h3 {
   text-align: center;
   font-weight: bolder;
-  padding-top: 5%;
-  color: forestgreen;
 }
 
 .part3-1 p {
   text-align: center;
   font-weight: lighter;
-  font-size: medium;
-  font-family: cursive;
+  font-size: large;
 }
 
 .part3-1 button {
-  margin-left: 27%;
+  margin-left: 150px;
 }
 
 .part3-2 img {
@@ -170,7 +148,7 @@ nav ul {
 
 .part3-2 h4 {
   text-align: center;
-  font-size: larger;
+  font-size: x-large;
   margin-bottom: -20px;
 }
 
@@ -232,7 +210,6 @@ nav ul {
   flex-direction: column;
   justify-content: center;
 }
-
 .part4-1 h4 {
   color: green;
   text-align: center;
@@ -251,7 +228,7 @@ nav ul {
 }
 
 .handy img {
-  height: 85px;
+  height: 120px;
   margin-left: 60px;
 }
 
@@ -272,7 +249,7 @@ nav ul {
 }
 
 .alida img {
-  height: 85px;
+  height: 120px;
   margin-left: 60px;
 }
 
@@ -293,7 +270,7 @@ nav ul {
 }
 
 .rob img {
-  height: 85px;
+  height: 120px;
   margin-left: 60px;
 }
 
@@ -327,74 +304,62 @@ nav ul {
   width: 90%;
 }
 
-.part5-2 img {
-  margin: 7% 0 0;
-  width: 40%;
-}
-
-.part5-2 h4 {
+.part5-1 h4 {
   text-align: center;
   font-size: x-large;
   color: green;
 }
 
-.part5-2 h5 {
+.part5 h5 {
   color: green;
   text-align: center;
   font-size: xx-large;
-  margin-top: 3%;
 }
 
-.part5-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.part5-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
 .boxa {
   background-color: white;
   width: 80%;
+  margin-top: 20px;
   text-align: center;
-  margin-left: 10%;
 }
 
 .boxb {
   background-color: white;
   width: 80%;
+  margin-top: 20px;
   text-align: center;
-  margin-left: 10%;
-  margin-top: 4%;
 }
 
 .boxc {
   background-color: white;
   width: 80%;
+  margin-top: 20px;
   text-align: center;
-  margin-left: 10%;
-  margin-top: 4%;
 }
 
 .boxd {
   background-color: white;
   width: 80%;
+  margin-top: 20px;
   text-align: center;
-  margin-left: 10%;
-  margin-top: 4%;
 }
 
-.boxa p {
+.part5 p {
   text-align: center;
   font-size: x-large;
-  margin-top: 1%;
 }
 
-.part5-2 button {
-  margin-left: -3%;
+.part5 button {
+  margin-left: 150px;
 }
 
 .part6-1 {
   background-image: linear-gradient(#435959cc, #435959cc), url("../images/pic5.jpeg");
-  margin-top: 3%;
 }
 
 .part6-1 h1 {
@@ -432,7 +397,7 @@ nav ul {
   margin-top: 20px;
 }
 
-.part6-2 {
+.part6 {
   background-color: lightgrey;
   margin-bottom: 25px;
   display: flex;
@@ -460,11 +425,7 @@ nav ul {
 }
 
 .part6 button {
-  margin-left: 30%;
-}
-
-.part6-2 button {
-  margin-left: 31%;
+  margin-left: 150px;
 }
 
 .part7 img {
@@ -488,60 +449,54 @@ nav ul {
   height: 40px;
 }
 
-.part7-2 p {
-  font-size: medium;
-  font-family: monospace;
-  line-height: 130%;
-  text-align: justify;
-  font-weight: lighter;
-  margin: auto;
-}
-
 footer {
   background-color: #151111f5;
   width: 100%;
 }
 
-.more h4 {
+.more h1 {
   color: white;
-  padding-top: 6%;
-  margin-left: 2%;
-  font-size: large;
+  font-size: x-large;
+  text-align: center;
 }
 
 .side h1 {
   color: white;
-  font-size: medium;
-  margin: 7% 0 0 2%;
+  font-size: x-large;
+  text-align: center;
+}
+
+.side h4 {
+  color: green;
+  font-size: x-large;
+  text-align: left;
 }
 
 .side p {
   color: white;
-  font-size: large;
-  text-align: left;
-  margin: 2%;
+  font-size: x-large;
+  text-align: center;
 }
 
 .more button {
-  margin-left: 3%;
+  margin-left: 250px;
 }
 
 .socials img {
-  height: 40px;
+  height: 50px;
 }
 
 .corner {
-  display: block;
+  display: flex;
   justify-content: space-between;
 }
 
 footer ul {
   list-style-type: none;
-  color: white;
-  text-align: justify;
+  font-size: x-large;
+  color: green;
 }
 
 .corner h3 {
-  color: #0d8309;
-  text-align: center;
+  color: white;
 }
