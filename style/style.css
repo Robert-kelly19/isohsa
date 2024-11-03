@@ -391,16 +391,19 @@ nav ul {
   font-size: x-large;
   margin-top: 1%;
 }
+
 .boxb p {
   text-align: center;
   font-size: x-large;
   margin-top: 1%;
 }
+
 .boxc p {
   text-align: center;
   font-size: x-large;
   margin-top: 1%;
 }
+
 .boxd p {
   text-align: center;
   font-size: x-large;
@@ -588,97 +591,127 @@ footer ul {
   }
 
   nav ul {
-      display: flex;
-      list-style-type: none;
-      gap: 14px;
+    display: flex;
+    list-style-type: none;
+    gap: 14px;
+  }
+
+  .part6-1 button {
+    margin-left: 45%;
+    background-color: rgba(0, 128, 0, 0.06);
+    color: white;
+    width: 15%;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-image: initial;
+    border-radius: 7%;
   }
 
   nav ul li a {
-      color: white;
-      text-decoration: none;
+    color: white;
+    text-decoration: none;
   }
+
   nav ul li a button {
     width: 130%;
     margin-top: -13px;
   }
+
   nav ul li a button:hover {
-      color: greenyellow;
+    color: greenyellow;
   }
+
   nav ul li a:hover {
-      color: greenyellow;
+    color: greenyellow;
   }
+
   header h1 {
-      text-align: left;
-      font-size: xx-large;
-      margin-left: 2%;
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 2%;
   }
+
   header p {
-      text-align: left;
-      font-size: x-large;
-      margin-left: 2%;
+    text-align: left;
+    font-size: x-large;
+    margin-left: 2%;
   }
+
   nav {
-      display: flex;
-      margin: 2% 4% 0 3%;
-      justify-content: space-between;
+    display: flex;
+    margin: 2% 4% 0 3%;
+    justify-content: space-between;
   }
+
   header img {
-      height: 150px;
+    height: 150px;
   }
+
   header button {
-      padding-top: 3px;
-      margin-bottom: 6px;
-      width: fit-content;
-      margin-left: 2%;
-      border-radius: 7px;
-      background-color: #7fffd40a;
-      height: 36px;
-      border: solid white 2px;
-      color: white;
+    padding-top: 3px;
+    margin-bottom: 6px;
+    width: fit-content;
+    margin-left: 2%;
+    border-radius: 7px;
+    background-color: #7fffd40a;
+    height: 36px;
+    border: solid white 2px;
+    color: white;
   }
+
   .contain1 {
-      display: grid;
-      grid-template-columns: 2fr 2fr;
-      justify-content: space-around;
-      border-bottom: solid gray 1px;
-      padding-bottom: 10%;
+     display: grid;
+     grid-template-columns: 2fr 2fr;
+     justify-content: space-around;
+     border-bottom: solid gray 1px;
+     padding-bottom: 10%;
   }
+
   .contain1 img {
-      width: 90%;
-      border-radius: 3%;
+    width: 90%;
+    border-radius: 3%;
   }
+
   .contain1 h1 {
-      text-align-last: left;
-      font-size: x-large;
-      margin-left: 2%;
-      padding-bottom: 0px;
+    text-align-last: left;
+    font-size: x-large;
+    margin-left: 2%;
+    padding-bottom: 0px;
   }
+
   .contain1 p {
-      text-align: left;
-      font-size: medium;
-      margin-left: 2%;
-      font-weight: lighter;
+    text-align: left;
+    font-size: medium;
+    margin-left: 2%;
+    font-weight: lighter;
   }
+
   .contain1 h5 {
-      margin-left: 2%;
-      text-align-last: left;
+    margin-left: 2%;
+    text-align-last: left;
   }
+
   .contain1 button {
-      margin-left: 2%;
-      background-color: #0d830900;
-      border: solid forestgreen 1px;
-      height: 35px;
-      width: 160px;
-      font-weight: bolder;
-      border-radius: 5px;
+    margin-left: 2%;
+    background-color: #0d830900;
+    border: solid forestgreen 1px;
+    height: 35px;
+    width: 160px;
+    font-weight: bolder;
+    border-radius: 5px;
   }
+
   .sponsor img {
     width: 8%;
-    margin: 6% 0 4% 0;
+    margin: 6% 0 4%;
   }
+
   .part2 {
     padding-bottom: 10%;
   }
+
   .part2 h1 {
     text-align: center;
     color: white;
@@ -686,11 +719,13 @@ footer ul {
     font-size: xx-large;
     padding-top: 5%;
   }
+
   .part2 p {
     font-size: large;
     color: white;
     text-align: center;
   }
+
   .part2 button {
     margin-left: 45%;
     background-color: #0080000f;
@@ -700,16 +735,19 @@ footer ul {
     height: 30px;
     border-radius: 7%;
   }
+
   .part2-1 {
       display: flex;
       text-align: center;
       justify-content: space-around;
   }
+
   .part2-1 h3 {
     color: forestgreen;
     font-size: xxx-large;
     margin: 12% 0 -6% 0
   }
+
   .part3-1 {
     display: grid;
     grid-template-columns: 2fr 4fr;
@@ -725,11 +763,13 @@ footer ul {
     margin-left: 5%;
     text-align: start;
   }
+
   .part3-1-2 p {
     text-align: start;
     font-size: large;
     font-family: emoji;
   }
+
   .part3-1-2 button {
     background-color: #0080000f;
     border: solid forestgreen 1px;
@@ -739,6 +779,7 @@ footer ul {
     font-weight: bold;
     margin-left: auto;
   }
+
   .part3-2 {
     display: grid;
     grid-template-columns: 350px 350px 350px;
@@ -746,9 +787,11 @@ footer ul {
     justify-content: space-between;
     margin: 3% 3% 3% 5%;
   }
+
   .box1 {
     padding-bottom: 5%;
   }
+
   .box2 {
     padding-bottom: 5%;
   }
@@ -768,7 +811,7 @@ footer ul {
   .box6 {
     padding-bottom: 5%;
   }
-  
+
   .part4 {
     display: flex;
   }
@@ -820,12 +863,12 @@ footer ul {
     margin-top: -150px;
   }
 
-  .boxab{
+  .boxab {
     width: 65%;
     margin-top: -150px;
   }
 
-  .boxac{
+  .boxac {
     width: 65%;
     margin-top: -150px;
     margin-bottom: 15px;
@@ -833,16 +876,6 @@ footer ul {
 
   .part6-1 {
     padding-bottom: 15%;
-  }
-
-  .part6-1 button {
-    margin-left: 45%;
-    background-color: #0080000f;
-    border: solid goldenrod 1px;
-    color: white;
-    width: 15%;
-    height: 30px;
-    border-radius: 7%;
   }
 
   .part7 {
