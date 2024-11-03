@@ -354,6 +354,7 @@ nav ul {
 .boxa {
   background-color: white;
   width: 80%;
+  height: fit-content;
   text-align: center;
   margin-left: 10%;
 }
@@ -361,6 +362,7 @@ nav ul {
 .boxb {
   background-color: white;
   width: 80%;
+  height: fit-content;
   text-align: center;
   margin-left: 10%;
   margin-top: 4%;
@@ -369,6 +371,7 @@ nav ul {
 .boxc {
   background-color: white;
   width: 80%;
+  height: 350px;
   text-align: center;
   margin-left: 10%;
   margin-top: 4%;
@@ -377,12 +380,31 @@ nav ul {
 .boxd {
   background-color: white;
   width: 80%;
+  height: 350px;
   text-align: center;
   margin-left: 10%;
   margin-top: 4%;
 }
 
 .boxa p {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 1%;
+}
+
+.boxb p {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 1%;
+}
+
+.boxc p {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 1%;
+}
+
+.boxd p {
   text-align: center;
   font-size: x-large;
   margin-top: 1%;
@@ -544,4 +566,339 @@ footer ul {
 .corner h3 {
   color: #0d8309;
   text-align: center;
+}
+
+@media (min-width: 700px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 45px;
+  }
+
+  nav .material-symbols-outlined {
+    font-variation-settings:
+      "FILL" 0,
+      "wght" 400,
+      "GRAD" 0,
+      "opsz" 24;
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 14px;
+  }
+
+  header button {
+    padding-top: 3px;
+    margin-bottom: 6px;
+    width: fit-content;
+    margin-left: 2%;
+    border-radius: 7px;
+    background-color: #7fffd40a;
+    height: 36px;
+    border: solid white 2px;
+    color: white;
+  }
+
+  nav ul li a button {
+    width: 130%;
+    margin-top: -13px;
+  }
+
+  .part6-1 button {
+    margin-left: 45%;
+    background-color: #0080000f;
+    color: white;
+    width: 15%;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-image: initial;
+    border-radius: 7%;
+  }
+
+  .contain1 button {
+    margin-left: 2%;
+    background-color: #0d830900;
+    border: solid forestgreen 1px;
+    height: 35px;
+    width: 160px;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+
+  .part2 button {
+    margin-left: 45%;
+    background-color: #0080000f;
+    border: solid goldenrod 1px;
+    color: white;
+    width: 15%;
+    height: 30px;
+    border-radius: 7%;
+  }
+
+  .part3-1-2 button {
+    background-color: #0080000f;
+    border: solid forestgreen 1px;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: auto;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav ul li a button:hover {
+    color: greenyellow;
+  }
+
+  nav ul li a:hover {
+    color: greenyellow;
+  }
+
+  header h1 {
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 2%;
+  }
+
+  header p {
+    text-align: left;
+    font-size: x-large;
+    margin-left: 2%;
+  }
+
+  nav {
+    display: flex;
+    margin: 2% 4% 0 3%;
+    justify-content: space-between;
+  }
+
+  header img {
+    height: 150px;
+  }
+
+  .contain1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: space-around;
+    border-bottom: solid gray 1px;
+    padding-bottom: 10%;
+  }
+
+  .contain1 img {
+    width: 90%;
+    border-radius: 3%;
+  }
+
+  .contain1 h1 {
+    text-align-last: left;
+    font-size: x-large;
+    margin-left: 2%;
+    padding-bottom: 1px;
+  }
+
+  .contain1 p {
+    text-align: left;
+    font-size: medium;
+    margin-left: 2%;
+    font-weight: lighter;
+  }
+
+  .contain1 h5 {
+    margin-left: 2%;
+    text-align-last: left;
+  }
+
+  .sponsor img {
+    width: 8%;
+    margin: 6% 0 4%;
+  }
+
+  .part2 {
+    padding-bottom: 10%;
+  }
+
+  .part2 h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-top: 5%;
+  }
+
+  .part2 p {
+    font-size: large;
+    color: white;
+    text-align: center;
+  }
+
+  .part2-1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .part2-1 h3 {
+    color: forestgreen;
+    font-size: xxx-large;
+    margin: 12% 0 -6%;
+  }
+
+  .part3-1 {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    justify-content: space-between;
+    padding-top: 5%;
+    gap: 10%;
+  }
+
+  .part3-1-1 h3 {
+    font-weight: bolder;
+    padding-top: 5%;
+    color: forestgreen;
+    margin-left: 5%;
+    text-align: start;
+  }
+
+  .part3-1-2 p {
+    text-align: start;
+    font-size: large;
+  }
+
+  .part3-2 {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 250px 250px;
+    justify-content: space-between;
+    margin: 3% 3% 3% 5%;
+  }
+
+  .box1 {
+    padding-bottom: 5%;
+  }
+
+  .box2 {
+    padding-bottom: 5%;
+  }
+
+  .box3 {
+    padding-bottom: 5%;
+  }
+
+  .box4 {
+    padding-bottom: 5%;
+  }
+
+  .box5 {
+    padding-bottom: 5%;
+  }
+
+  .box6 {
+    padding-bottom: 5%;
+  }
+
+  .part4 {
+    display: flex;
+  }
+
+  .part4-1 h4 {
+    color: green;
+    text-align: left;
+  }
+
+  .part4-1 h1 {
+    font-size: xx-large;
+    text-align: left;
+    margin-top: inherit;
+  }
+
+  .part5 {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+  }
+
+  .part5-2-1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+  }
+
+  .part5-1 img {
+    width: 90%;
+    height: 800px;
+    margin-top: 10%;
+  }
+
+  .part5-2 h4 {
+    text-align: center;
+    font-size: x-large;
+    color: green;
+    margin-top: 10%;
+  }
+
+  .part6-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: space-between;
+  }
+
+  .boxaa {
+    width: 65%;
+    margin-left: 10%;
+    margin-top: -150px;
+  }
+
+  .boxab {
+    width: 65%;
+    margin-top: -150px;
+  }
+
+  .boxac {
+    width: 65%;
+    margin-top: -150px;
+    margin-bottom: 15px;
+  }
+
+  .part6-1 {
+    padding-bottom: 15%;
+  }
+
+  .part7 {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+  }
+
+  .part7-1 h5 {
+    text-align: left;
+  }
+
+  .part7-1 h1 {
+    text-align: left;
+  }
+
+  .part7-2 {
+    display: flex;
+  }
+
+  .height {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .corner {
+    display: flex;
+  }
 }
