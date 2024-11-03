@@ -607,6 +607,11 @@ footer ul {
     color: white;
   }
 
+  nav ul li a button {
+    width: 130%;
+    margin-top: -13px;
+  }
+
   .part6-1 button {
     margin-left: 45%;
     background-color: #0080000f;
@@ -653,11 +658,6 @@ footer ul {
   nav ul li a {
     color: white;
     text-decoration: none;
-  }
-
-  nav ul li a button {
-    width: 130%;
-    margin-top: -13px;
   }
 
   nav ul li a button:hover {
