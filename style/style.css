@@ -699,7 +699,7 @@ footer ul {
   }
 
   .contain1 img {
-    width: 90%;
+    width: 95%;
     border-radius: 3%;
   }
 
@@ -723,7 +723,7 @@ footer ul {
   }
 
   .sponsor img {
-    width: 8%;
+    width: 3%;
     margin: 6% 0 4%;
   }
 
@@ -782,7 +782,7 @@ footer ul {
     display: grid;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 250px 250px;
-    justify-content: space-between;
+    justify-content: center;
     margin: 3% 3% 3% 5%;
   }
 
