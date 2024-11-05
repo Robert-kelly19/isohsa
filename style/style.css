@@ -699,7 +699,7 @@ footer ul {
   }
 
   .contain1 img {
-    width: 95%;
+    width: 90%;
     border-radius: 3%;
   }
 
@@ -712,14 +712,18 @@ footer ul {
 
   .contain1 p {
     text-align: left;
-    font-size: medium;
+    font-size: large;
     margin-left: 2%;
     font-weight: lighter;
   }
 
   .contain1 h5 {
     margin-left: 2%;
-    text-align-last: left;
+    text-align: left;
+  }
+
+  .part1 {
+    margin-top: -40px;
   }
 
   .sponsor img {
@@ -812,6 +816,7 @@ footer ul {
 
   .part4 {
     display: flex;
+    margin-left: 5px;
   }
 
   .part4-1 h4 {
@@ -823,6 +828,24 @@ footer ul {
     font-size: xx-large;
     text-align: left;
     margin-top: inherit;
+  }
+
+  .hope img {
+    width: 85%;
+    margin-left: 12%;
+  }
+
+  .handy {
+    display: flex;
+    margin-left: -40px;
+  }
+
+  .rob{
+    margin-left: -40px;
+  }
+
+  .alida {
+    margin-left: -40px;
   }
 
   .part5 {
